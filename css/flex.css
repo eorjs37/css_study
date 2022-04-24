@@ -1,0 +1,52 @@
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.w_1200{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box1{
+    background-color: yellow;
+}
+
+.box2{
+    background-color: honeydew;
+}
+
+.container{
+    display: flex;
+    border: 1px solid #000;
+}
+
+.container_inline_flex{
+    display: inline-flex;
+    border: 1px solid #000;
+}
+
+.item{
+    padding: 0 10px;
+}
+
+.dir_row{
+    flex-direction: row;
+}
+
+.dir_column{
+    flex-direction: column;
+}
+
+.w_300{
+    width: 300px;
+}
+
+.w_150{
+    width: 150px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
