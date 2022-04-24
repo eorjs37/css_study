@@ -1,0 +1,47 @@
+body{
+    background-color: #eee;
+}
+
+article > h1{
+    margin-bottom: 88px;
+    font-size: 67px;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bold;
+    background-color: #333;
+}
+
+.cards{
+    width: 935px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+figure{
+    width: 295px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+figcaption{
+    padding: 36px 20px;
+}
+
+figcaption > dl > dt{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    letter-spacing: 3.5px;
+}
+
+figcaption > dl > dd{
+    line-height: 22px;
+    margin-bottom: 10px;
+}

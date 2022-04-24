@@ -35,8 +35,12 @@ header{
     left: 0;
     top: 89px;
     width: 100%;
-    height: 300px;
+    height: 34px;
     background-color: rgb(138, 132, 132);
+}
+
+#navWrap:hover{
+    height: 300px;
 }
 
 #navWrap > nav {
