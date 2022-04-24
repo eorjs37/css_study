@@ -1,0 +1,37 @@
+:root {
+  --primary: royalblue;
+  --secondary: black;
+  --postive: yellowgreen;
+  --nagative: crimson;
+}
+
+.btn {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.primary {
+  background-color: var(--primary);
+}
+
+.secondary {
+  background-color: var(--secondary);
+}
+
+.postive {
+  background-color: var(--postive);
+}
+
+.nagative {
+  background-color: var(--nagative);
+}
+
+.parent {
+  --pwidth: 300px;
+  width: calc(var(--pwidth) * 2);
+  height: 100px;
+  margin: auto;
+  background-color: crimson;
+}
