@@ -1,0 +1,30 @@
+html,
+body {
+    font-size: 16px !important;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.h1 {
+    font-size: 20px;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.halfem {
+    font-size: 0.5em;
+}
+
+.rem {
+    font-size: 2rem;
+}
+
+.onevw {
+    font-size: 1vw;
+}

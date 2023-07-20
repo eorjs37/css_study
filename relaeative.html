@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상대단위</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/relative.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1 class="h1">
+                Em : 부모단위(20px)
+                <div class="em">
+                    자식단위(20px * 2 = 40px)
+                </div>
+                <div class="halfem">
+                    자식단위(20px * 0.5 = 10px)
+                </div>
+            </h1>
+
+            <hr>
+            <h1>
+                Rem : Root 단위(16px)
+                <div class="rem">
+                    2rem : 16px(root font size) * 2 = 32px
+                </div>
+
+            </h1>
+
+            <hr>
+            <h1>
+                VW : viewport
+                <div class="onevw">
+                    1vw : viewport 너비의 1%(너비가 1440px이면 1440*0.01 =14.4 )
+                </div>
+            </h1>
+        </div>
+    </main>
+</body>
+
+</html>
